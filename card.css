@@ -1,0 +1,38 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top:10%;
+    display: grid;
+   grid-template-columns: repeat(3,1fr); /*three books in one row */
+   grid-template-rows: auto; /*gap between img*/
+
+   
+}
+.cards{
+    width: 250 px;
+    padding: 20px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10 px rgba(0,0,0,1);
+    cursor: pointer;
+}
+
+.img_box {
+
+width: 150 px;
+height: 200 px;
+
+}
+.details button{
+padding: 10px 10px ;
+border: none;
+font-weight: bold;
+color: #fff;
+background-color: rgb(240,186,87);
+border-radius: 5px;
+cursor: pointer;
+
+}
+.details button:hover{
+    background-color: orange;
+}
